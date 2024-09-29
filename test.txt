@@ -1,0 +1,83 @@
+Enter the username: parsing post data C-ipZdiSezB
+parsing post data C978dUnpbjU
+parsing post data C9LZzBUpMzQ
+parsing post data C9DhcClSsIr
+scraping total 4 posts of 48455356487
+[
+  {
+    "id": "3432487935617395905",
+    "shortcode": "C-ipZdiSezB",
+    "dimensions": {
+      "height": 421,
+      "width": 750
+    },
+    "src": "https://scontent-lga3-2.cdninstagram.com/v/t51.29350-15/454830279_2224335384593872_6534435114251974163_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=104&_nc_ohc=2vub8-PbmN8Q7kNvgH7b3Bt&_nc_gid=606ec6d5af9340bba798c20c6dbbe100&edm=APU89FABAAAA&ccb=7-5&oh=00_AYBcRzR4t-i-Q1PelHDWLa-I0sjpznfsE4140PJLyHwazQ&oe=66FE8E59&_nc_sid=bc0c2c",
+    "src_attached": null,
+    "video_url": "https://scontent-lga3-1.cdninstagram.com/o1/v/t16/f2/m69/AQOvVKTJWCG4aigmSYF9YUOmxeS_nCDWGEncNG99L1IewD35XMYeCpnHR5ANdMEN2gzw4NmPTR0e380NihEg7Crd.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuMTkxOC5iYXNlbGluZSJ9&_nc_cat=102&vs=1560061024920920_897916203&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HUGVwM3hZQ21hcXN0MTBEQU95TVptRkltUFJ2YnBSMUFBQUYVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dPaEhIeHRMem1CVDZhUUJBT1Nmc0F2ZDN0RnJicV9FQUFBRhUCAsgBACgAGAAbABUAACb4%2ForJx5%2BUQBUCKAJDMywXQEBZeNT987YYFmRhc2hfYmFzZWxpbmVfMTA4MHBfdjERAHX%2BBwA%3D&ccb=9-4&oh=00_AYBYB7mgvPNtVf7yofU489Me6pg-lQvy-VeGhaoQEvi2KA&oe=66FAA03F&_nc_sid=bc0c2c",
+    "location": null,
+    "taken_at": "2024-08-11 19:29:41",
+    "is_video": true,
+    "tagged_users": [],
+    "captions": [
+      "First Short Film Dropped! 👾\n\nFull video in bio! 🔗\n—\nI can’t believe I finally made it happen.\nA huge thank you to everyone who helped bring this vision to life. 🌱 \n\nI never imagined I’d create a film based on my personal struggles, but the girl in this story is essentially me from a year ago. When coming to college I was lost, but it took some time to find myself again. I wanted to portray that season of my life with a song that reminds me of it. \n\nFeel free to DM me with any feedback or thoughts! I’ve got so much to learn heh. ✍🏼\n\nI will also be doing an AMA on my story tomorrow 🙋‍♀️\n\n #buildspace #shortfilm #cinematic"
+    ],
+    "link": "https://www.instagram.com/p/C-ipZdiSezB/"
+  },
+  {
+    "id": "3421594239713523924",
+    "shortcode": "C978dUnpbjU",
+    "dimensions": {
+      "height": 421,
+      "width": 750
+    },
+    "src": "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/455011273_1833247457152754_144798689310428571_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=VzhzJHgTkr8Q7kNvgFjlNQn&_nc_gid=606ec6d5af9340bba798c20c6dbbe100&edm=APU89FABAAAA&ccb=7-5&oh=00_AYD1UbChv9oORh_LVnPp6lDddHgYuZjK825tu_Wx4WdMGg&oe=66FE7E52&_nc_sid=bc0c2c",
+    "src_attached": null,
+    "video_url": "https://scontent-lga3-2.cdninstagram.com/o1/v/t16/f2/m69/AQNWf-aK0XRsB39v9OTu4VLNirHwJ-Rc5UNg8gbiLV7zQmPj5ziHHRvD1-fpECbtm0HgOcAfg0TxSzQ34x5UPGvU.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuMTkxOC5iYXNlbGluZSJ9&_nc_cat=109&vs=891676136117242_3913021006&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTEFyeEFMT3h6UUZLNmtCQUFOMFN6M2NOLVEwYnBSMUFBQUYVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dFclgtaHA0MmJMNzNTY0VBTVc2RW1XWEs3czZicV9FQUFBRhUCAsgBACgAGAAbABUAACaw3%2BTgrZmbQRUCKAJDMywXQFPdDlYEGJMYFmRhc2hfYmFzZWxpbmVfMTA4MHBfdjERAHX%2BBwA%3D&ccb=9-4&oh=00_AYBN8FIk9qeZIdIGBccUc1yMwAzVB4ni8bhsgG8T3Jamkg&oe=66FA902E&_nc_sid=bc0c2c",
+    "location": null,
+    "taken_at": "2024-07-27 18:44:41",
+    "is_video": true,
+    "tagged_users": [],
+    "captions": [
+      "Final update on my short film! 👾\n\nAfter 6 weeks of hard work, we’re almost there. A lot has changed for the project since my last post, and while I hoped to share the finished product by now, logistical delays held me back a bit.\n\nStay tuned—the short film drops in the beginning of August!\n\n@_buildspace @_nightsweekends\n\n#buildspace #nightsandweekends #s5 #shortfilm #cinematic"
+    ],
+    "link": "https://www.instagram.com/p/C978dUnpbjU/"
+  },
+  {
+    "id": "3407931000312089808",
+    "shortcode": "C9LZzBUpMzQ",
+    "dimensions": {
+      "height": 1080,
+      "width": 1080
+    },
+    "src": "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/450362453_847354157311640_6572818865030578386_n.jpg?stp=dst-jpg_e35&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=SWugiEvXXuMQ7kNvgGk6go9&_nc_gid=606ec6d5af9340bba798c20c6dbbe100&edm=APU89FABAAAA&ccb=7-5&oh=00_AYAJQFerxXEqQWFWA0r_ErW6dnIgdVUWs9syzv55qCeXlA&oe=66FE8357&_nc_sid=bc0c2c",
+    "src_attached": null,
+    "video_url": null,
+    "location": null,
+    "taken_at": "2024-07-08 22:17:35",
+    "is_video": false,
+    "tagged_users": [],
+    "captions": [
+      "“Practice” shots for my short film pt. 2\n\nFiguring out how to light this scene was more challenging than the TV scene. 🔦 \n\n@_buildspace @_nightsweekends \n \n#buildspace #nightsandweekends #s5 #shortfilm #cinematic"
+    ],
+    "link": "https://www.instagram.com/p/C9LZzBUpMzQ/"
+  },
+  {
+    "id": "3405712805675581995",
+    "shortcode": "C9DhcClSsIr",
+    "dimensions": {
+      "height": 1080,
+      "width": 1080
+    },
+    "src": "https://scontent-lga3-2.cdninstagram.com/v/t51.29350-15/449858279_1185205346236773_5778873101827218591_n.jpg?stp=dst-jpg_e35_s1080x1080&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=109&_nc_ohc=RJDFafkXfeAQ7kNvgH6_J6v&edm=APU89FABAAAA&ccb=7-5&oh=00_AYAt-gfrYreP3IqUMgA53oAYC3erKhTRffaq0ZZKIA9rWQ&oe=66FE7EC2&_nc_sid=bc0c2c",
+    "src_attached": null,
+    "video_url": null,
+    "location": null,
+    "taken_at": "2024-07-05 20:50:25",
+    "is_video": false,
+    "tagged_users": [],
+    "captions": [
+      "“Practice” shots for my short film. 📺\n\nEver since I finally got my mirrorless camera, I wanted to start creating cinematic content instead of vlogs. \n\nI’m planning to make videos based on nostalgic songs before I forget about them. This short film will be the first one. I’m looking forward to learning more about lighting, color grading, and framing, which are all new to me. I can’t wait! \n\n@_buildspace @_nightsweekends \n \n#buildspace #nightsandweekends #s5 #shortfilm #cinematic"
+    ],
+    "link": "https://www.instagram.com/p/C9DhcClSsIr/"
+  }
+]
