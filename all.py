@@ -4,6 +4,7 @@ from urllib.parse import quote
 import jmespath
 from typing import Dict
 from datetime import datetime, timezone
+from config import get_db_connection
 
 def parse_post(data: Dict) -> Dict:
     print(f"parsing post data {data.get('shortcode', 'N/A')}")
@@ -36,7 +37,7 @@ def parse_post(data: Dict) -> Dict:
         return {}
 
 
-
+#given function 
 def scrape_user_posts(user_id: str, session: httpx.Client, page_size=12, max_pages: int = None):
     base_url = "https://www.instagram.com/graphql/query/?query_hash=e769aa130647d2354c40ea6a439bfc08&variables="
     variables = {
@@ -50,7 +51,7 @@ def scrape_user_posts(user_id: str, session: httpx.Client, page_size=12, max_pag
         data = resp.json()
         posts = data["data"]["user"]["edge_owner_to_timeline_media"]
         for post in posts["edges"]:
-            yield parse_post(post["node"])  # note: we're using parse_post function from previous chapter
+            yield parse_post(post["node"])  
         page_info = posts["page_info"]
         if _page_number == 1:
             print(f"scraping total {posts['count']} posts of {user_id}")
@@ -86,6 +87,20 @@ def scrape_user(username: str):
     return data["data"]["user"]['id']
 
 def main():
+    try:
+        conn = get_db_connection()
+        print("Connection successful")
+        # Optionally, you can check the current database state, e.g., running a simple query
+        with conn.cursor() as cur:
+            cur.execute("SELECT version();")
+            db_version = cur.fetchone()
+            print(f"Database version: {db_version}")
+    except Exception as e:
+        print(f"Connection failed: {e}")
+    finally:
+        if conn:
+            conn.close()
+            print('huh')
     user_name = input("Enter the username: ")
     user_id = scrape_user(user_name)
     #20 seconds of wait time tolerated
