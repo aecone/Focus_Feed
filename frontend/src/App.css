@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,96 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+
+
+/*base styling for the body */
+body{
+  font-family: Arial,sans-serif;
+  background-color: #E2EFD1;
+  color: #53614F;
+  margin:0;
+  padding:0;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#B1BF9B;
+  padding: 10px 20px; /* padding around the header content */
+}
+
+/* navbar container aligns logo and navigation links */
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+}
+
+.logo{
+  font-size:1.5em;
+  font-weight:bold;
+  color: #F8F9F1;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+  font-weight: bold;
+  font-size: 1.15em;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #53614F;
+  font-weight: bold;
+}
+
+/*search bar container*/
+.search-bar{
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* styling for the search input field */
+.search-bar input{
+  width:50%;
+  padding:15px;
+  border-radius: 30px;
+  border:none;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba (0,0,0,0.1);
+}
+
+main{
+  padding: 30px;
+}
+
+/* feed grid container*/
+.feed-grid{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top:40px;
+  padding: 10px;
+  max-width: 1100px;
+  margin-left:auto;
+  margin-right:auto;
+  gap:20px;
+}
+
+.card{
+  background-color: #F8F9F1;
+  width:200px;
+  height:200px;
+  margin:10px;
+  border-radius:10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
 }
