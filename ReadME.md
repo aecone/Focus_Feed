@@ -3,5 +3,5 @@ How to set up:
 `python3 all.py > file.txt`
 
 How to view frontend:
-'cd frontend'
-'npm start'
+`cd frontend`
+`npm start`
