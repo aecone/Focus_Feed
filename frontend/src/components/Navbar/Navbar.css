@@ -1,25 +1,72 @@
+/* Navbar container */
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #B1BF9B;
+  padding: 40px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative; /* Helps with absolute centering of the logo if needed */
+}
+
+/* Centering the logo in the navbar */
+.logo-container {
+  position: absolute;
+  left: 50%; /* Move to the horizontal center */
+  transform: translateX(-50%); /* Offset half the element’s width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Logo image styling */
+.logo {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Navbar links */
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar link styling */
+.navbar-links li a {
+  text-decoration: none;
+  color: #53614F;
+  font-size: 1.15em;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar-links li a:hover {
+  color: #3C4A36;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
     align-items: center;
-    background-color: #B1BF9B;
-    padding: 10px 20px;
+    padding: 15px;
   }
-  
-  .navbar {
-    display: flex;
-    list-style: none;
-    gap: 20px;
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
   }
-  
-  .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #F8F9F1;
+
+  .logo-container {
+    position: static; /* Reset absolute positioning on smaller screens */
+    transform: none;
+    margin-bottom: 15px;
   }
-  
-  .navbar a {
-    text-decoration: none;
-    color: #53614F;
-    font-weight: bold;
-  }
+}
