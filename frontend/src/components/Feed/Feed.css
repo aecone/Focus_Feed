@@ -1,0 +1,10 @@
+.feed-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 10px;
+    max-width: 1100px;
+    margin: auto;
+    gap: 20px;
+  }
