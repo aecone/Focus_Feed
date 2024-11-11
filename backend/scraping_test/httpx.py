@@ -4,7 +4,7 @@ from urllib.parse import quote
 import jmespath
 from typing import Dict
 from datetime import datetime, timezone
-from config import get_db_connection
+from backend.app.config import get_db_connection
 
 def parse_post(data: Dict) -> Dict:
     print(f"parsing post data {data.get('shortcode', 'N/A')}")
@@ -84,6 +84,7 @@ def scrape_user(username: str):
         f"https://i.instagram.com/api/v1/users/web_profile_info/?username={username}",
     )
     data = json.loads(result.content)
+    print(data["data"]["user"]['id'])
     return data["data"]["user"]['id']
 
 def main():
