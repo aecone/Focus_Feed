@@ -8,3 +8,6 @@ How to view frontend:
 `cd frontend`
 `npm install`
 `npm start`
+
+On another terminal
+`flask run --debug`
