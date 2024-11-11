@@ -10,3 +10,7 @@ How to view frontend:
 
 On another terminal
 `flask run --debug`
+
+Deployment
+- Vercel for front-end (frontend dir as source)
+- Render for backend 
