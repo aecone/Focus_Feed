@@ -25,6 +25,9 @@ app.register_blueprint(user_bp)
 app.register_blueprint(scrape_bp)
 app.register_blueprint(proxy_bp)
 
+@app.route('/')
+def index():
+    return "App is running", 200
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
