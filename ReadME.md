@@ -1,8 +1,7 @@
 How to set up:
 
 - Need the db credentials set up locally first
-  `pip install -r requirements.txt`
-  `python3 all.py > file.txt`
+  `pip install -r backend/requirements.txt`
 
 How to view frontend:
 `cd frontend`
