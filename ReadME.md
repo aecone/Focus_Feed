@@ -12,8 +12,16 @@ How to view frontend:
 
 On another terminal
 `flask run --debug`
+Frontend 
+- React
+
+Backend 
+- Python
+- Flask server
+- Scrapfly for webscraping (paid)
 
 Deployment
+- Supabase for hosted DB
 - Vercel for front-end (frontend dir as source)
 - Render for backend 
 
