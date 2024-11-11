@@ -27,4 +27,4 @@ app.register_blueprint(proxy_bp)
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
