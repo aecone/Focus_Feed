@@ -1,3 +1,5 @@
+https://focus-feed-iota.vercel.app/#
+
 How to set up:
 
 - Need the db credentials set up locally first
@@ -14,3 +16,4 @@ On another terminal
 Deployment
 - Vercel for front-end (frontend dir as source)
 - Render for backend 
+
