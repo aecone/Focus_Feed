@@ -6,21 +6,18 @@
   background-color: #B1BF9B;
   padding: 40px 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative; /* Helps with absolute centering of the logo if needed */
+  position: relative;
 }
 
-/* Centering the logo in the navbar */
+/* Logo styling */
 .logo-container {
   position: absolute;
-  left: 50%; /* Move to the horizontal center */
-  transform: translateX(-50%); /* Offset half the element’s width */
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
 }
 
-/* Logo image styling */
 .logo {
   height: 100px;
   width: auto;
@@ -36,7 +33,6 @@
   padding: 0;
 }
 
-/* Navbar link styling */
 .navbar-links li a {
   text-decoration: none;
   color: #53614F;
@@ -45,12 +41,17 @@
   transition: color 0.3s ease;
 }
 
-/* Hover effect */
 .navbar-links li a:hover {
   color: #3C4A36;
 }
 
-/* Responsive design for smaller screens */
+/* UserButton container */
+.user-button-container {
+  position: absolute;
+  right: 30px;
+}
+
+/* Responsive design */
 @media (max-width: 768px) {
   .navbar-container {
     flex-direction: column;
@@ -65,8 +66,12 @@
   }
 
   .logo-container {
-    position: static; /* Reset absolute positioning on smaller screens */
+    position: static;
     transform: none;
     margin-bottom: 15px;
+  }
+
+  .user-button-container {
+    margin-top: 10px;
   }
 }

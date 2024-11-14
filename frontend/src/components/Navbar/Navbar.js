@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../../assets/images/logo.svg'; // Adjust path based on your setup
+import logo from '../../assets/images/logo.svg';
+import { UserButton } from '@clerk/clerk-react';
 
 function Navbar() {
   return (
@@ -15,6 +16,10 @@ function Navbar() {
           <li><a href="#">Profile</a></li>
         </ul>
       </nav>
+      {/* UserButton for profile and log out options */}
+      <div className="user-button-container">
+        <UserButton />
+      </div>
     </header>
   );
 }
