@@ -4,7 +4,7 @@ import './FeedPost.css';
 function FeedPost({ src, caption, link }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const proxySrc = `http://127.0.0.1:5000/proxy-image?url=${encodeURIComponent(src)}`;
+  const proxySrc = `${process.env.REACT_APP_API_BASE_URL}/proxy-image?url=${encodeURIComponent(src)}`;
 
   const toggleExpand = (event) => {
     event.stopPropagation();
