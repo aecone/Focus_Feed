@@ -79,7 +79,6 @@ Make sure the backend is running in another terminal window.
 * Fetch and display public Instagram posts in a clean, unified feed
 * User authentication and personalized feeds
 * Search bar for finding accounts/posts
-* Dark and light mode
 
 ---
 
