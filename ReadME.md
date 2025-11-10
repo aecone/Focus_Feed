@@ -12,19 +12,17 @@ Instead of wading through ads, recommended posts, and cluttered interfaces, user
 > ⚠️ **Note:** The site’s Instagram scraping functionality is currently **inactive** — our Scrapfly API ran out of credits 😅.  
 > The frontend and backend are still fully deployable and functional locally.
 
-<table style="border: none; border-collapse: collapse;">
+<table>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/a61ef495-02be-4316-ae21-59a4acf48efa" width="300" />
+      <img width="300" alt="Screenshot 2025-11-10 at 6 04 44 PM-min" src="https://github.com/user-attachments/assets/95abb1f2-8323-4aef-9b2a-a248746e7b76" />
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/454ed849-e7b7-4134-a7c6-b7449130e517" width="300" /><br>
-      <img src="https://github.com/user-attachments/assets/f364c4a8-6a9e-4410-8b35-1c91aaf74ad9" width="300" />
+      <img width="300" alt="Screenshot_2024-11-11_at_2 26 03_AM-min" src="https://github.com/user-attachments/assets/d7f085c4-1ee1-4278-ba39-fbeb44a0d8ed" /><br>
+      <img width="300" alt="Screenshot 2025-11-10 at 6 05 07 PM-min" src="https://github.com/user-attachments/assets/2cb94cab-db92-44d8-93d3-d5d1a07b6d7e" />
     </td>
   </tr>
 </table>
-
-
 
 ---
 
